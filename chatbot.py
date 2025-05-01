@@ -9,11 +9,11 @@ def analyze_sentiment(text):
 
 def generate_response(polarity):
     if polarity >= 0.3:
-        return "Bot: Harika, böyle hissetmene sevindim! 😊"
+        return "Bot: Harika, böyle hissetmene sevindim!"
     elif polarity <= -0.3:
-        return "Bot: Üzgünüm, umarım yakında kendini daha iyi hissedersin. 💪"
+        return "Bot: Üzgünüm, umarım yakında kendini daha iyi hissedersin."
     else:
-        return "Bot: Hmm, karmaşık duygular hissediyor gibisin. Anlıyorum... 🙂"
+        return "Bot: Hmm, karmaşık duygular hissediyor gibisin. Anlıyorum..."
 
 
 def chat():
