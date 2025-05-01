@@ -20,7 +20,7 @@ def generate_response(polarity):
     elif polarity <= -0.2 and polarity > -0.5:
         print(Fore.RED + "Bot: Zor bir gün geçiriyor olabilirsin. Yürüyüş yapmak, nefes egzersizi denemek iyi gelebilir. Yalnız değilsin.")
     else:
-        print(Fore.RED + "Bot: Gerçekten kötü hissediyor gibisin. Lütfen bu duygularla tek başına baş etmeye çalışmak zorunda değilsin. Bir uzmana ya da güvendiğin birine ulaşmak iyi olabilir. 💬")
+        print(Fore.RED + "Bot: Gerçekten kötü hissediyor gibisin. Lütfen bu duygularla tek başına baş etmeye çalışmak zorunda değilsin. Bir uzmana ya da güvendiğin birine ulaşmak iyi olabilir.")
 
 def chat():
     print(Style.BRIGHT + Fore.CYAN + "Bot: Merhaba, nasıl hissettiğini bana anlatabilirsin. (Çıkmak için 'çık' yaz)")
