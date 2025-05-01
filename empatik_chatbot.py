@@ -16,9 +16,9 @@ def generate_response(polarity):
     elif polarity >= 0.2:
         print(Fore.GREEN + "Bot: İyi hissetmene sevindim! Bu duyguyu sürdürmek için bugün sevdiğin bir şeyi yapmayı unutma.")
     elif -0.2 < polarity < 0.2:
-        print(Fore.YELLOW + "Bot: Karışık duygular hissediyor gibisin. Böyle günler normaldir. Belki sevdiğin biriyle konuşmak iyi gelebilir. 🤔")
+        print(Fore.YELLOW + "Bot: Karışık duygular hissediyor gibisin. Böyle günler normaldir. Belki sevdiğin biriyle konuşmak iyi gelebilir.")
     elif polarity <= -0.2 and polarity > -0.5:
-        print(Fore.RED + "Bot: Zor bir gün geçiriyor olabilirsin. Yürüyüş yapmak, nefes egzersizi denemek iyi gelebilir. Yalnız değilsin. 🍂")
+        print(Fore.RED + "Bot: Zor bir gün geçiriyor olabilirsin. Yürüyüş yapmak, nefes egzersizi denemek iyi gelebilir. Yalnız değilsin.")
     else:
         print(Fore.RED + "Bot: Gerçekten kötü hissediyor gibisin. Lütfen bu duygularla tek başına baş etmeye çalışmak zorunda değilsin. Bir uzmana ya da güvendiğin birine ulaşmak iyi olabilir. 💬")
 
@@ -27,7 +27,7 @@ def chat():
     while True:
         user_input = input(Fore.WHITE + "Sen: ")
         if user_input.lower() in ("çık", "exit"):
-            print(Fore.MAGENTA + "Bot: Görüşmek üzere! Kendine iyi bak 🌸")
+            print(Fore.MAGENTA + "Bot: Görüşmek üzere! Kendine iyi bak!")
             break
         polarity = analyze_sentiment(user_input)
         generate_response(polarity)
