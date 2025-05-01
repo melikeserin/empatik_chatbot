@@ -13,7 +13,7 @@ def generate_response(polarity):
     elif polarity <= -0.3:
         return "Bot: Üzgünüm, umarım yakında kendini daha iyi hissedersin."
     else:
-        return "Bot: Hmm, karmaşık duygular hissediyor gibisin. Anlıyorum..."
+        return "Bot: Hmm, karmaşık duygular hissediyor gibisin. Anlıyorum.."
 
 
 def chat():
