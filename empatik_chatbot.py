@@ -12,7 +12,7 @@ def analyze_sentiment(text):
 
 def generate_response(polarity):
     if polarity >= 0.6:
-        print(Fore.GREEN + "Bot: Gerçekten çok mutlu olman harika!Enerjini çevrendekilerle paylaşabilirsin.")
+        print(Fore.GREEN + "Bot: Gerçekten çok mutlu olman harika! Enerjini çevrendekilerle paylaşabilirsin.")
     elif polarity >= 0.2:
         print(Fore.GREEN + "Bot: İyi hissetmene sevindim! Bu duyguyu sürdürmek için bugün sevdiğin bir şeyi yapmayı unutma.")
     elif -0.2 < polarity < 0.2:
