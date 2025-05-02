@@ -2,7 +2,7 @@ from googletrans import Translator
 from textblob import TextBlob
 from colorama import Fore, Style, init
 
-init(autoreset=True)  # renkleri otomatik sıfırlar
+init(autoreset=True)  
 
 def analyze_sentiment(text):
     translator = Translator()
