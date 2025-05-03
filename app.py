@@ -24,7 +24,7 @@ def generate_response(polarity):
 # Streamlit Arayüzü
 st.set_page_config(page_title="Duygu Analizli Sohbet Botu", layout="centered")
 st.title("Duygu Analizli Sohbet Botu")
-st.markdown("Nasıl hissettiğini bana yaz, ben de duyguna uygun bir şeyler söyleyeyim. ")
+st.markdown("Nasıl hissettiğini bana yaz,ben de duyguna uygun bir şeyler söyleyeyim.")
 
 user_input = st.text_area("Bugün nasılsın?", height=150)
 
