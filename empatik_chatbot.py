@@ -16,7 +16,7 @@ def generate_response(polarity):
     elif polarity >= 0.2:
         print(Fore.GREEN + "Bot: İyi hissetmene sevindim! Bu duyguyu sürdürmek için bugün sevdiğin bir şeyi yapmayı unutma.")
     elif -0.2 < polarity < 0.2:
-        print(Fore.YELLOW + "Bot: Karışık duygular hissediyor gibisin. Böyle günler normaldir. Belki sevdiğin biriyle konuşmak iyi gelebilir.")
+        print(Fore.YELLOW + "Bot: Karışık duygular hissediyor gibisin. Böyle günler normaldir, belki sevdiğin biriyle konuşmak iyi gelebilir.")
     elif polarity <= -0.2 and polarity > -0.5:
         print(Fore.RED + "Bot: Zor bir gün geçiriyor olabilirsin. Yürüyüş yapmak, nefes egzersizi denemek iyi gelebilir. Yalnız değilsin.")
     else:
