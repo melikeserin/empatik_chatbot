@@ -27,7 +27,7 @@ def chat():
     while True:
         user_input = input(Fore.WHITE + "Sen: ")
         if user_input.lower() in ("çık", "exit"):
-            print(Fore.MAGENTA + "Bot: Görüşmek üzere! Kendine iyi bak!")
+            print(Fore.MAGENTA + "Bot: Görüşmek üzere kendine iyi bak!")
             break
         polarity = analyze_sentiment(user_input)
         generate_response(polarity)
