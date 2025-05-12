@@ -17,7 +17,7 @@ def generate_response(polarity):
     elif -0.2 < polarity < 0.2:
         return "Karışık duygular hissediyor gibisin. Belki bir müzik, yürüyüş ya da biriyle konuşmak iyi gelir."
     elif polarity <= -0.2 and polarity > -0.5:
-        return "Zor bir gün olabilir. Kendine zaman tanı ve gerekirse bir nefes egzersizi dene."
+        return "Zor bir gün olabilir. Kendine zaman tanı ve gerekirse bir nefes egzersizi dene"
     else:
         return "Üzgün hissediyorsan lütfen bu duygularla yalnız kalma. Konuşabileceğin biri mutlaka vardır."
 
